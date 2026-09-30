@@ -21,16 +21,30 @@
 <img
 id="neon"
 src="Images2/Mural.jpg">
+</a-asset>
 
-  </a-asset>
+<a-asset-item
+id="skeleton"
+src="Images2/pixellabs-glb-3402.glb"></a-asset-item>
+
+
  
   <a-scene> 
+    
+    <a-gltf-model
+    src="skeleton"
+    position="0 0 -4"
+    scale="5 5 5 ">
+  </a-gltf-model>
+
+
  
     <a-box 
       position="0 1 -3" 
       color= "#00ff18> 
-      src="#neon"</a-box>
-    </a-box> 
+      src= #neon">
+    </a-box>
+  
  
     <a-plane 
       position="0 0 -4" 
